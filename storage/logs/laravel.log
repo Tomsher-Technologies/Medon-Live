@@ -1,0 +1,100 @@
+[2024-01-05 06:52:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(252): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(ParseError))
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2024-01-05 06:52:39] laravel.ERROR: syntax error, unexpected token ":", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \":\", expecting \"]\" at C:\\wamp64\\www\\jisha\\Medon-Laravel\\config\\firebase.php:58)
+[stacktrace]
+#0 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2024-01-05 06:52:41] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(252): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(ParseError))
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2024-01-05 06:52:41] laravel.ERROR: syntax error, unexpected token ":", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \":\", expecting \"]\" at C:\\wamp64\\www\\jisha\\Medon-Laravel\\config\\firebase.php:58)
+[stacktrace]
+#0 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2024-01-05 06:52:41] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(252): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(ParseError))
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2024-01-05 06:52:41] laravel.ERROR: syntax error, unexpected token ":", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \":\", expecting \"]\" at C:\\wamp64\\www\\jisha\\Medon-Laravel\\config\\firebase.php:58)
+[stacktrace]
+#0 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2024-01-05 06:52:48] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(252): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(ParseError))
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2024-01-05 06:52:48] laravel.ERROR: syntax error, unexpected token ":", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \":\", expecting \"]\" at C:\\wamp64\\www\\jisha\\Medon-Laravel\\config\\firebase.php:59)
+[stacktrace]
+#0 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2024-01-05 06:53:01] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
+[stacktrace]
+#0 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(112): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(252): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(ParseError))
+#6 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2024-01-05 06:53:01] laravel.ERROR: syntax error, unexpected token ":", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \":\", expecting \"]\" at C:\\wamp64\\www\\jisha\\Medon-Laravel\\config\\firebase.php:62)
+[stacktrace]
+#0 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\wamp64\\www\\jisha\\Medon-Laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 

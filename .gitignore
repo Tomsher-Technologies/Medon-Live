@@ -9,6 +9,8 @@
 /storage/debugbar
 /vendor
 /storage
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
 /temp
 /.idea
 /.vscode

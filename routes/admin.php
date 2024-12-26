@@ -407,6 +407,7 @@ Route::group(['prefix' => env('ADMIN_PREFIX'), 'middleware' => ['auth', 'admin']
 
     // Delivery Boy
     Route::resource('delivery_boy', DeliveryBoyController::class)->except('show');
+    Route::post('/clear-device-token', [DeliveryBoyController::class, 'clearDeviceToken'])->name('clear-device-token');
 
 
     Route::resource('orders', OrderController::class);

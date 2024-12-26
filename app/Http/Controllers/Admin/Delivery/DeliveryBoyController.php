@@ -180,4 +180,19 @@ class DeliveryBoyController extends Controller
         flash(translate('Something went wrong'))->error();
         return back();
     }
+
+    public function clearDeviceToken(Request $request){
+        $delivery_boy = User::find($request->id);
+        if ($delivery_boy->user_type == 'delivery_boy') {
+            $delivery_boy->device_token = null;
+            if ($delivery_boy->save()) {
+                return 1;
+            }else{
+                return 0;
+            }
+        }else{
+            return 0;
+        }
+
+    }
 }

@@ -1,51 +1,51 @@
 <?php return array (
   'anhskohbo/no-captcha' => 
   array (
-    'aliases' => 
-    array (
-      'NoCaptcha' => 'Anhskohbo\\NoCaptcha\\Facades\\NoCaptcha',
-    ),
     'providers' => 
     array (
       0 => 'Anhskohbo\\NoCaptcha\\NoCaptchaServiceProvider',
     ),
+    'aliases' => 
+    array (
+      'NoCaptcha' => 'Anhskohbo\\NoCaptcha\\Facades\\NoCaptcha',
+    ),
   ),
   'artesaos/seotools' => 
   array (
-    'aliases' => 
-    array (
-      'SEO' => 'Artesaos\\SEOTools\\Facades\\SEOTools',
-      'JsonLd' => 'Artesaos\\SEOTools\\Facades\\JsonLd',
-      'SEOMeta' => 'Artesaos\\SEOTools\\Facades\\SEOMeta',
-      'Twitter' => 'Artesaos\\SEOTools\\Facades\\TwitterCard',
-      'OpenGraph' => 'Artesaos\\SEOTools\\Facades\\OpenGraph',
-    ),
     'providers' => 
     array (
       0 => 'Artesaos\\SEOTools\\Providers\\SEOToolsServiceProvider',
     ),
+    'aliases' => 
+    array (
+      'SEOMeta' => 'Artesaos\\SEOTools\\Facades\\SEOMeta',
+      'OpenGraph' => 'Artesaos\\SEOTools\\Facades\\OpenGraph',
+      'Twitter' => 'Artesaos\\SEOTools\\Facades\\TwitterCard',
+      'JsonLd' => 'Artesaos\\SEOTools\\Facades\\JsonLd',
+      'SEO' => 'Artesaos\\SEOTools\\Facades\\SEOTools',
+    ),
   ),
   'barryvdh/laravel-debugbar' => 
   array (
-    'aliases' => 
-    array (
-      'Debugbar' => 'Barryvdh\\Debugbar\\Facades\\Debugbar',
-    ),
     'providers' => 
     array (
       0 => 'Barryvdh\\Debugbar\\ServiceProvider',
     ),
+    'aliases' => 
+    array (
+      'Debugbar' => 'Barryvdh\\Debugbar\\Facades\\Debugbar',
+    ),
   ),
   'barryvdh/laravel-dompdf' => 
   array (
-    'aliases' => 
-    array (
-      'PDF' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
-      'Pdf' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
-    ),
     'providers' => 
     array (
       0 => 'Barryvdh\\DomPDF\\ServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Pdf' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
+      'PDF' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
     ),
   ),
   'barryvdh/laravel-ide-helper' => 
@@ -64,13 +64,13 @@
   ),
   'diglactic/laravel-breadcrumbs' => 
   array (
-    'aliases' => 
-    array (
-      'Breadcrumbs' => 'Diglactic\\Breadcrumbs\\Breadcrumbs',
-    ),
     'providers' => 
     array (
       0 => 'Diglactic\\Breadcrumbs\\ServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Breadcrumbs' => 'Diglactic\\Breadcrumbs\\Breadcrumbs',
     ),
   ),
   'facade/ignition' => 
@@ -111,35 +111,35 @@
   ),
   'intervention/image' => 
   array (
-    'aliases' => 
-    array (
-      'Image' => 'Intervention\\Image\\Facades\\Image',
-    ),
     'providers' => 
     array (
       0 => 'Intervention\\Image\\ImageServiceProvider',
     ),
+    'aliases' => 
+    array (
+      'Image' => 'Intervention\\Image\\Facades\\Image',
+    ),
   ),
   'kreait/laravel-firebase' => 
   array (
-    'aliases' => 
-    array (
-      'Firebase' => 'Kreait\\Laravel\\Firebase\\Facades\\Firebase',
-    ),
     'providers' => 
     array (
       0 => 'Kreait\\Laravel\\Firebase\\ServiceProvider',
     ),
+    'aliases' => 
+    array (
+      'Firebase' => 'Kreait\\Laravel\\Firebase\\Facades\\Firebase',
+    ),
   ),
   'laracasts/flash' => 
   array (
-    'aliases' => 
-    array (
-      'Flash' => 'Laracasts\\Flash\\Flash',
-    ),
     'providers' => 
     array (
       0 => 'Laracasts\\Flash\\FlashServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Flash' => 'Laracasts\\Flash\\Flash',
     ),
   ),
   'laracasts/generators' => 
@@ -151,13 +151,13 @@
   ),
   'laracon21/combinations' => 
   array (
-    'aliases' => 
-    array (
-      'Combinations' => 'Laracon21\\Combinations\\CombinationsFacade',
-    ),
     'providers' => 
     array (
       0 => 'Laracon21\\Combinations\\CombinationsServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Combinations' => 'Laracon21\\Combinations\\CombinationsFacade',
     ),
   ),
   'laravel/sanctum' => 
@@ -169,13 +169,13 @@
   ),
   'laravel/socialite' => 
   array (
-    'aliases' => 
-    array (
-      'Socialite' => 'Laravel\\Socialite\\Facades\\Socialite',
-    ),
     'providers' => 
     array (
       0 => 'Laravel\\Socialite\\SocialiteServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Socialite' => 'Laravel\\Socialite\\Facades\\Socialite',
     ),
   ),
   'laravel/tinker' => 
@@ -194,13 +194,13 @@
   ),
   'livewire/livewire' => 
   array (
-    'aliases' => 
-    array (
-      'Livewire' => 'Livewire\\Livewire',
-    ),
     'providers' => 
     array (
       0 => 'Livewire\\LivewireServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Livewire' => 'Livewire\\Livewire',
     ),
   ),
   'maatwebsite/excel' => 
@@ -230,13 +230,13 @@
   ),
   'simplesoftwareio/simple-qrcode' => 
   array (
-    'aliases' => 
-    array (
-      'QrCode' => 'SimpleSoftwareIO\\QrCode\\Facades\\QrCode',
-    ),
     'providers' => 
     array (
       0 => 'SimpleSoftwareIO\\QrCode\\QrCodeServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'QrCode' => 'SimpleSoftwareIO\\QrCode\\Facades\\QrCode',
     ),
   ),
   'spatie/laravel-sitemap' => 
@@ -248,13 +248,13 @@
   ),
   'stevebauman/location' => 
   array (
-    'aliases' => 
-    array (
-      'Location' => 'Stevebauman\\Location\\Facades\\Location',
-    ),
     'providers' => 
     array (
       0 => 'Stevebauman\\Location\\LocationServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Location' => 'Stevebauman\\Location\\Facades\\Location',
     ),
   ),
 );

@@ -1,0 +1,10 @@
+[01-Oct-2024 11:20:01 UTC] PHP Warning:  The use statement with non-compound name 'Google_Client' has no effect in /home/medonph24/Medon/app/Http/Helpers.php on line 49
+[01-Oct-2024 11:21:01 UTC] PHP Warning:  The use statement with non-compound name 'Google_Client' has no effect in /home/medonph24/Medon/app/Http/Helpers.php on line 49
+[01-Oct-2024 11:22:02 UTC] PHP Warning:  The use statement with non-compound name 'Google_Client' has no effect in /home/medonph24/Medon/app/Http/Helpers.php on line 49
+[01-Oct-2024 11:23:01 UTC] PHP Warning:  The use statement with non-compound name 'Google_Client' has no effect in /home/medonph24/Medon/app/Http/Helpers.php on line 49
+[01-Oct-2024 11:25:02 UTC] PHP Warning:  The use statement with non-compound name 'Google_Client' has no effect in /home/medonph24/Medon/app/Http/Helpers.php on line 49
+[01-Oct-2024 11:26:01 UTC] PHP Warning:  The use statement with non-compound name 'Google_Client' has no effect in /home/medonph24/Medon/app/Http/Helpers.php on line 49
+[01-Oct-2024 17:58:57 Asia/Dubai] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/medonph24/Medon/vendor/psr/log/src/LoggerInterface.php on line 30
+[01-Oct-2024 17:58:57 Asia/Dubai] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[01-Oct-2024 17:58:57 Asia/Dubai] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/medonph24/Medon/vendor/psr/log/src/LoggerInterface.php on line 30
+[01-Oct-2024 17:58:57 Asia/Dubai] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
